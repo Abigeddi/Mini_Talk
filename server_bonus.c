@@ -6,13 +6,12 @@
 /*   By: abigeddi <abigeddi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/06 17:32:06 by abigeddi          #+#    #+#             */
-/*   Updated: 2022/03/06 18:01:00 by abigeddi         ###   ########.fr       */
+/*   Updated: 2022/03/18 23:12:24 by abigeddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk_bonus.h"
-
-#include "minitalk.h"
+#include <stdio.h>
 
 int	g_pid = 0;
 

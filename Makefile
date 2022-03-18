@@ -20,9 +20,10 @@ server_bonus: server_bonus.c utils.c $(INC_BONUS)
 client_bonus: client_bonus.c utils.c $(INC_BONUS)
 	cc $(CFLAGS)  client_bonus.c utils.c -o client_bonus
 
-clean:
+clean : 
+	rm -f *.o
 	
 fclean : clean
 	rm -rf server server_bonus client client_bonus
 
-re : fclean all
+re : fclean all bonus

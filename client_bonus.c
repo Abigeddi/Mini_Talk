@@ -6,7 +6,7 @@
 /*   By: abigeddi <abigeddi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/06 17:31:54 by abigeddi          #+#    #+#             */
-/*   Updated: 2022/03/06 17:54:34 by abigeddi         ###   ########.fr       */
+/*   Updated: 2022/03/18 23:10:07 by abigeddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,7 @@ int	main(int ac, char **av)
 				send_char(pid, s[i]);
 				i++;
 			}
+			send_char(pid, 0);
 		}
 		else
 			ft_putstr("incorrect pid\n");
